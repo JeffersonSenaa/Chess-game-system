@@ -1,7 +1,5 @@
 package chessgame;
 
-import board.Board;
-import board.Position;
 import chess.ChessMath;
 
 public class Main {
