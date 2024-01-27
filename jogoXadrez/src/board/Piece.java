@@ -15,6 +15,8 @@ public abstract class Piece {
 
     public abstract boolean[][] possibleMoves();
 
+    //Hook Methods
+    //Template Method Pattern e Inversão de Controle
     public boolean possibleMove(Position position){
         return possibleMoves()[position.getRow()][position.getColumn()];
     }
