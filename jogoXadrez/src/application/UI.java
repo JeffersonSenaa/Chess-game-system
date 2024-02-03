@@ -1,6 +1,6 @@
 package application;
 
-import chess.ChessMath;
+import chess.ChessMatch;
 import chess.ChessPiece;
 import chess.Color;
 
@@ -64,7 +64,7 @@ public class UI {
         System.out.println("  a b c d e f g h");
     }
 
-    public static void printMatch(ChessMath chessMath, List<ChessPiece> captured){
+    public static void printMatch(ChessMatch chessMath, List<ChessPiece> captured){
         printBoard(chessMath.getPieces());
         System.out.println();
         printCapturedPieces(captured);
